@@ -49,6 +49,7 @@
 }
 
 .pencapaian {
-    padding-top: 20px !important;
+    padding: 20px 0 !important;
     margin-top: -30px !important;
+    margin-bottom: -10px;
 }
