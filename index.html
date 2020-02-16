@@ -18,7 +18,7 @@
         <nav class="red darken-4">
             <div class="container">
                 <div class="nav-wrapper">
-                    <a href="#!" class="brand-logo">My Portfolio</a>
+                    <a href="#top" class="brand-logo">My Portfolio</a>
                     <a href="#" data-target="mobile-nav" class="sidenav-trigger pulse"><i
                             class="material-icons">menu</i></a>
                     <ul class="right hide-on-med-and-down">
@@ -26,7 +26,7 @@
                         <li><a href="#keterampilan">Keterampilan</a></li>
                         <li><a href="#pengalaman">Pengalaman</a></li>
                         <li><a href="#pencapaian">Pecapaian</a></li>
-                        <li><a href="#dokumentasi">Dokumentasi</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
                     </ul>
                 </div>
             </div>
@@ -45,17 +45,21 @@
                 <span class="white-text email">nurudinismail69@gmail.com</span>
             </div>
         </li>
-        <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
-        <li><a href="#!">Second Link</a></li>
-        <li>
-            <div class="divider"></div>
+        <li><a href="#bio" class="sidenav-close"><i class="material-icons">account_circle</i>Tentang</a></li>
+        <div class="divider"></div>
+        <li></i><a href="#keterampilan" class="sidenav-close"><i
+                    class="material-icons">fitness_center</i>Keterampilan</a></li>
+        <div class="divider"></div>
+        <li></i><a href="#pengalaman" class="sidenav-close"><i class="material-icons">hourglass_full</i>Pengalaman</a>
         </li>
-        <li><a class="subheader">Subheader</a></li>
-        <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+        <div class="divider"></div>
+        <li></i><a href="#pencapaian" class="sidenav-close"><i class="material-icons">star</i>Pecapaian</a></li>
+        <div class="divider"></div>
+        <li></i><a href="#portfolio" class="sidenav-close"><i class="material-icons">widgets</i>Portfolio</a></li>
     </ul>
 
     <!-- SLIDER -->
-    <div class="slider">
+    <div class="slider scrollspy" id="top">
         <ul class="slides">
             <li>
                 <div class="caption center-align">
@@ -69,7 +73,7 @@
     </div>
 
     <!-- ABOUT -->
-    <section id="bio" class="bio">
+    <section id="bio" class="bio scrollspy">
         <div class="container">
             <div class="row center">
                 <br><br>
@@ -86,7 +90,7 @@
                         multimedia, dan sedikit tentang programming.
                         Alhamdulillah saya lulus SMK pada tahun 2018 dengan predikat lulusan terbaik jurusan Teknik
                         Komputer dan Jaringan angkatan 2015.
-                        Kemudian melanjutkan menimba ilmu pada jurusan Teknologi Informasi di Polteknik Negeri Malang.
+                        Kemudian melanjutkan menimba ilmu pada jurusan Teknologi Informasi di Politeknik Negeri Malang.
                     </p>
                     <h6 class="left-align">Moto Hidup</h6>
                     <blockquote class="light justify">
@@ -129,7 +133,7 @@
     </section>
 
     <!-- PARALLAX -->
-    <div class="parallax-container">
+    <div class="parallax-container scrollspy" id="keterampilan">
         <div class="parallax"><img src="img/3.png" class=""></div>
         <div class="container">
             <div class="row flow-text">
@@ -171,8 +175,8 @@
     </div>
 
     <!-- PENGALAMAN TEKNIS -->
-    <div class="jumbotron">
-        <div class="container" id="pengalaman">
+    <div class="jumbotron scrollspy" id="pengalaman">
+        <div class="container">
             <h4 class="grey-text text-darken-3"><i class="small material-icons">timeline</i> Pengalaman Teknis
             </h4>
             <ul class="collapsible">
@@ -199,8 +203,9 @@
                             berbasis wired dan wireless sebagai media belajar bisnis dan jaringan </p>
                         <p><i class="tiny material-icons">subdirectory_arrow_right</i> Mengikuti pelatihan Mikrotik
                             Academy di SMKN 2 Probolinggo </p>
-                        <p><i class="tiny material-icons">subdirectory_arrow_right</i> Bisnis jual es tebu di pelataran
-                            SMKN 1 Probolinggo sebagai media analisa kekuatan branding, dan tampilan produk </p>
+                        <p><i class="tiny material-icons">subdirectory_arrow_right</i> Menjual es tebu di pelataran
+                            SMKN 1 Probolinggo sebagai media analisa kekuatan branding, dan tampilan terhadap daya tarik
+                            konsumen serta daya saing penjualan produk serupa </p>
                     </div>
                 </li>
                 <li>
@@ -214,7 +219,7 @@
                         <p><i class="tiny material-icons">subdirectory_arrow_right</i> Mengikuti program pelatihan
                             Junior Network Administration dalam program DTS Kominfo di Politeknik Negeri Malang</p>
                         <p><i class="tiny material-icons">subdirectory_arrow_right</i> Admin aplikasi multipayment
-                            "hijrahpay". Bisa diakses <a href="https://hijrahpay.id">diisni</a> atau download
+                            "hijrahpay". Bisa diakses <a href="https://hijrahpay.id">disIni</a> atau download
                             aplikasinya
                             <a href="https://play.google.com/store/apps/details?id=hijrahpay.larakostpulsa.com&hl=in">
                                 disini
@@ -227,7 +232,7 @@
     </div>
 
     <!-- PENCAPAIAN -->
-    <div class="row grey darken-4 pencapaian">
+    <div class="row grey darken-4 pencapaian scrollspy" id="pencapaian">
         <div class="container">
             <br>
             <h4 class="grey-text text-lighten-3"><i class="small material-icons">star</i> Pencapaian</h4>
@@ -291,28 +296,137 @@
     </div>
 
     <!-- DOKUMENTASI -->
-    <section id="dokumentasi" class="dokumentasi">
+    <section id="portfolio" class="portfolio scrollspy">
         <div class="container">
             <br>
-            <h4 class="grey-text text-darken-3 center"><i class="small material-icons">timeline</i> Dokumentasi
+            <h4 class="grey-text text-darken-3 center"><i class="small material-icons">timeline</i> Portfolio
             </h4>
             <div class="row">
                 <div class="col s12 m3">
-                    <img src="img/p1.PNG" alt="" class="responsive-img materialboxed">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/p1.PNG" data-caption="Project Java Aplikasi Pembuat Laporan format markdown"
+                                class="responsive-img materialboxed">
+                        </div>
+                        <div class="card-content">
+                            <p>Java project. Markdown Creator</p>
+                            <br>
+                        </div>
+                        <div class="card-action">
+                            <a href="https://github.com/nrdnisml/javaProject-MarkCreator">Repo Project</a>
+                        </div>
+                    </div>
+
                 </div>
                 <div class="col s12 m3">
-                    <img src="img/p2.PNG" alt="" class="responsive-img materialboxed">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/p2.png"
+                                data-caption="Web aplikasi media server menggunakan cms ostube dengan debian 6 sebagai server"
+                                class="responsive-img materialboxed">
+                        </div>
+                        <div class="card-content">
+                            <p> Web aplikasi media server menggunakan cms ostube menggunakan Debian 6 sebagai server.
+                            </p>
+                        </div>
+                        <div class="card-action">
+                            <a href="">Repo Project</a>
+                        </div>
+                    </div>
+
                 </div>
                 <div class="col s12 m3">
-                    <img src="img/p3.PNG" alt="" class="responsive-img materialboxed">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/p3.png" data-caption="Website sistem pendaftaran anggota wri"
+                                class="responsive-img materialboxed">
+                        </div>
+                        <div class="card-content">
+                            <p>Website sistem pendaftaran calon anggota wri. Menggunakan Admin LTE, PHP, dan MySQL</p>
+                            <br>
+                        </div>
+                        <div class="card-action">
+                            <a href="https://github.com/nrdnisml/sinauWeb/tree/master/registrasi-wri">Repo Project</a>
+                        </div>
+                    </div>
+
                 </div>
                 <div class="col s12 m3">
-                    <img src="img/p4.PNG" alt="" class="responsive-img materialboxed">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/p4.PNG"
+                                data-caption="Web aplikasi mikhmon untuk monitoring hotspot user RT RW Net"
+                                class="responsive-img materialboxed">
+                        </div>
+                        <div class="card-content">
+                            <p>MIKHMON web aplikasi untuk monitoring, serta
+                                generate user hotspot pada jaringan RT RW Net</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="https://laksa19.github.io/">Link sumber aplikasi</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <h4 class="grey-text text-darken-3 center"><i class="small material-icons">timeline</i>
+                Video Dokumentasi
+            </h4>
+            <div class="row">
+                <div class="col s12 m4">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/K8vDs3bT83E" frameborder="0"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/LLqEY8zjsYE" frameborder="0"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/oPBD76FnJuc" frameborder="0"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 m3">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/zDLra3UVbXc" frameborder="0"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col s12 m3">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/MEdFWMFeDc0" frameborder="0"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col s12 m3">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/jBt22JztP7w" frameborder="0"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col s12 m3">
+                    <div class="video-container">
+                        <iframe src="    https://www.youtube.com/embed/S_OobYKSetA
+                        " frameborder="0" allowfullscreen></iframe>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- FOOTER -->
+    <footer class="red darken-1 grey-text text-lighten-3 center-align">
+        <p class="flow-text">&copy;nrdnisml 2020</p>
+    </footer>
 
     <!--JavaScript at end of body for optimized loading-->
 
@@ -336,6 +450,11 @@
 
         const material = document.querySelectorAll('.materialboxed');
         M.Materialbox.init(material);
+
+        const scroll = document.querySelectorAll('.scrollspy');
+        M.ScrollSpy.init(scroll, {
+            scrollOffset: 50
+        });
     </script>
 </body>
 
